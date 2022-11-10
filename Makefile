@@ -7,7 +7,7 @@ homework-i-run:
 .PHONY: init-dev
 init-dev:
 	@python -m pip install --upgrade pip
-	pip -requirement requirements.txt
+	@pip -requirement requirements.txt
 
 # Run tools for files from commit.
 .PHONY: pre-commit-run
